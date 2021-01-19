@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Нина Соколова](https://up.htmlacademy.ru/htmlcss/30/user/1711441).
-* Наставник: `Неизвестно`.
+* Наставник: [Ярослав Петухов](https://htmlacademy.ru/profile/yaroslav).
 
 ---
 
