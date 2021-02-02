@@ -1,0 +1,89 @@
+/*  Variables */
+
+:root {
+	--basic-black: #000000;
+	--basic-white: #ffffff;
+	--basic-extra-gray: #333333;
+	--basic-blue: #81B3D2;
+	--basic-gray: #EEEEEE;
+	--basic-brown: #766357;
+
+}
+
+/* Global */
+
+body {
+	font-family: "PT Sans";
+	font-size: 14px;
+	line-height:21px;
+	font-weight: 700;
+	color: var(--basic-black);
+	text-transform: uppercase;
+	background-color: var(--basic-white);
+	background-position: top center;
+    background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main navigation */
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: transparent;
+
+}
+
+.main-navigation-wrapper {
+  background-color: var(--basic-white);
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation-current a:not([href]) {
+  background-color: var(--basic-white);
+}
+
+/* Site navigation */
+
+.site-navigation a,
+.user-navigation a {
+  color: var(--basic-black);
+}
+
+/* Features */
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 14px;
+  line-height: 21px;
+
+.index-columns {
+  color: var(--basic-white);
+  background-image: 
+  background-position: center, 0 0;
+  background-repeat: no-repeat, repeat;
+}
+
+.index-columns h2 {
+  font-size: 21px;
+  line-height: 21px;
+}
