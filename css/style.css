@@ -180,8 +180,8 @@ img {
 }
 
 .social-button:hover,
-.social-button: focus {
-  background-color: var(--basic-extra-blue)
+.social-button:focus {
+  background-color:var(--basic-extra-blue)
 }
 
 
