@@ -93,14 +93,15 @@ img {
   list-style: none;
 }
 
-.feature-item {
+.features-item {
   text-align: center;
-  background: var(--basic-blue);
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
 }
 
-.feature-block {
+.features-block {
   text-align: center;
-  background: var(--basic-gray);
+  background-color: var(--basic-gray);
 }
 
 .feature-block_title {
@@ -118,11 +119,10 @@ img {
 
 /* recommendation */
 
-
 .recommendation-title {
   font-size: 21px;
   line-height: 21px;
-
+  font-weight: bold;
 }
 
 .recommendation-text {
