@@ -8,6 +8,7 @@
   --basic-blue: #81B3D2;
   --basic-extra-blue: #669EC0;
   --basic-extra-gray: 333333;
+  --basic-brown: 766357;
 }
 
 /* Global */
@@ -153,7 +154,7 @@ img {
 }
 
 .accommodation-item {
-  font-size: 21px;
+  font-size: 14px;
   line-height: 26px;
   font-weight: bold;
 } 
@@ -192,4 +193,64 @@ img {
 
 .footer-copyright {
   text-align: right;
+}
+
+.sorting-selection {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal; 
+}
+
+.infrastruktura-title {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold; 
+}
+
+.type-title {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold; 
+}
+
+.price-title {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold; 
+}
+
+.checkbox {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.results-text {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.results-title {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.rating {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.sorting-selection-item a,
+.user-sorting-selection-item a {
+  color: var(--basic-blue);
+}
+
+.sorting-selection-item a:hover,
+.sorting-selection-item a:focus,
+.user-sorting-selection-item a:hover,
+.user-sorting-selection-item a:focus {
+  color: var(--basic-black);
 }
