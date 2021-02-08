@@ -1,0 +1,256 @@
+/*  Variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-white: #ffffff;
+  --basic-gray: #EEEEEE;
+  --basic-brown: #766357;
+  --basic-blue: #81B3D2;
+  --basic-extra-blue: #669EC0;
+  --basic-extra-gray: 333333;
+  --basic-brown: 766357;
+}
+
+/* Global */
+
+body {
+  min-width: 1280px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-image: url("../img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;  
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main navigation */
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: transparent;
+}
+
+.main-navigation-wrapper {
+  background-color: var(--basic-white);
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+/* User navigation */
+
+.site-navigation a, 
+.user-navigation a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color: var(--basic-blue);
+}
+
+.container-title {
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+}
+/* Features */
+
+.features {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.features-title {
+  text-align: center;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;	
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-item {
+  text-align: center;
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
+}
+
+.features-block {
+  text-align: center;
+  background-color: var(--basic-gray);
+}
+
+.feature-block_title {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.features-block_text {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+
+/* recommendation */
+
+.recommendation-title {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.recommendation-text {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+
+}
+
+
+/* accommodation */
+
+.accommodation {
+  text-align: center;
+}
+
+.accommodation_title  {
+  font-size: 30px;
+  line-height: 24px;
+  
+}
+
+.accommodation-info {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  
+}
+
+.accommodation-item {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+} 
+
+/* footer */
+
+.main-footer {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.footer-contacts {
+  text-align: left;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.social-button {
+  color: initial;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color:var(--basic-extra-blue)
+}
+
+
+.footer-copyright {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;	
+}
+
+.footer-copyright {
+  text-align: right;
+}
+
+.sorting-selection {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal; 
+}
+
+.infrastruktura-title {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold; 
+}
+
+.type-title {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold; 
+}
+
+.price-title {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold; 
+}
+
+.checkbox {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.results-text {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.results-title {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.rating {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.sorting-selection-item a,
+.user-sorting-selection-item a {
+  color: var(--basic-blue);
+}
+
+.sorting-selection-item a:hover,
+.sorting-selection-item a:focus,
+.user-sorting-selection-item a:hover,
+.user-sorting-selection-item a:focus {
+  color: var(--basic-black);
+}
