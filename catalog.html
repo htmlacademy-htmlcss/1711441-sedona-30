@@ -14,66 +14,65 @@
 <body class="page-body">
   <header class="main-header">
     <nav class="main-navigation">
-      <a class="main-header-logo">
+      <a class="main-header-logo" href="index.html">
         <img src="img/index_logo.svg" width="138" height="70" alt="Седона логотип">
       </a>
       <div class="main-navigation-wrapper">
         <div class="container">
           <ul class="site-navigation">
-            <li><a href="index.html">Информация</a></li>
-            <li><a href="#">Фото и видео</a></li>
-            <li><a href="#">Карта штата</a></li>
-            <li><a href="#">Гостиницы</a></li>
+            <li><a class="site-navigation_link" href="index.html">Информация</a></li>
+            <li><a class="site-navigation_link" href="#">Фото и видео</a></li>
+            <li><a class="site-navigation_link" href="#">Карта штата</a></li>
+            <li><a class="site-navigation_link site-navigation_link--active" href="#">Гостиницы</a></li>
           </ul>
         </div>
       </div>  
     </nav>
   </header>
 
-  <main class="center">
+  <main class="container">
     <section class="filtr-block">
-        <div class="infrastruktura-title">
-          <h2>Инфраструктура:</h2>
-          <ul class="checkbox">
-            <li>
-              <input type="checkbox" name="pool" value="Бассейнн" id="checkbox1" checked>
-              <label for="checkbox1">Бассейнн</label>
-            </li>
-            <li>
-              <input type="checkbox" name="parking" value="Парковка" id="checkbox2">
-              <label for="checkbox2">Парковка</label>
-            </li>
-            <li>
-              <input type="checkbox" name="Wi-Fi" value="Wi-Fi" id="checkbox3">
-              <label for="checkbox3">Wi-Fi</label>
-            </li>
-          </ul>
+      <div class="infrastruktura-title">
+        <h2>Инфраструктура:</h2>
+        <ul class="checkbox-list">
+          <li>
+            <input type="checkbox" name="pool" id="pool" checked>
+            <label for="filter-pool">Бассейнн</label>
+          </li>
+          <li>
+            <input type="checkbox" name="parking" id="parking">
+            <label for="filter-parking">Парковка</label>
+          </li>
+          <li>
+            <input type="checkbox" name="wifi" id="wifi">
+            <label for="filter-wifi">Wi-Fi</label>
+          </li>
+        </ul>
+      </div>
+      <div class="type-title">
+        <h2>Тип жилья:<h2>
+        <ul class="checkbox-list">
+          <li>
+            <input type="checkbox" name="hotel" id="hotel" checked>
+            <label for="filter-hotel">Гостиница</label>
+          </li>
+          <li>
+            <input type="checkbox" name="motel" id="motel" checked>
+            <label for="filter-motel">Мотель</label>
+          </li>
+          <li>
+            <input type="checkbox" name="apartments" id="apartments" checked>
+            <label for="filter-apartments">Апартаменты</label>
+          </li>
+        </ul>
         </div>
-        <div class="type-title">
-          <h2>Тип жилья:<h2>
-          <ul class="checkbox">
-            <li>
-              <input type="checkbox" name="hotel" value="Гостиница" id="checkbox4" checked>
-              <label for="checkbox4">Гостиница</label>
-            </li>
-            <li>
-              <input type="checkbox" name="motel" value="Мотель" id="checkbox5" checked>
-              <label for="checkbox5">Мотель</label>
-            </li>
-            <li>
-              <input type="checkbox" name="apartments" value="Апартаменты" id="checkbox6" checked>
-              <label for="checkbox6">Апартаменты</label>
-            </li>
-          </ul>
-        </div>
-        <div class="price"
-          <p class="price-title">
-            <label for="price-item">Стоимость в сутки</label>
-            <input id="price-item" type="text" name="item" placeholder="от 0 до 3000">
-          </p>
-          <button class="button" type="submit">Показать</button>
-        </div>
-      </form>
+      <div class="price">
+        <p class="price-title">
+          <label for="price-item">Стоимость в сутки</label>
+          <input id="price-item" type="text" name="item" placeholder="от 0 до 3000">
+        </p>
+        <button class="button" type="submit">Показать</button>
+      </div>
     </section>
     <section class="sorting">
       <div class="sorting-title">
@@ -82,9 +81,9 @@
       <div class="sorting-selection">
         <span>Сортировка:</span>
         <ul class="sorting-selection-item">
-          <li><a href="#">По цене</a></li>
-          <li><a href="#">По типу</a></li>
-          <li><a href="#">По рейтингу</a></li>
+          <li><a class="sorting-selection-item--activ" href="#">По цене</a></li>
+          <li><a class="sorting-selection-item" href="#">По типу</a></li>
+          <li><a class="sorting-selection-item" href="#">По рейтингу</a></li>
         </ul>
       </div>
       <div class="sorting">
@@ -136,7 +135,7 @@
               <a href="#" class="">Забронировать</a>
             </p>
         </div>
-        <div class="rating"
+        <div class="rating">
           <span>Рейтинг:9,2</span>
         </div>
         <div>Рейтинг по звездам</div>
