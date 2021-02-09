@@ -21,10 +21,10 @@
       <div class="main-navigation-wrapper">
         <div class="container">
           <ul class="site-navigation">
-            <li><a href="#">Информация</a></li>
-            <li><a href="#">Фото и видео</a></li>
-            <li><a href="#">Карта штата</a></li>
-            <li><a href="catalog.html">Гостиницы</a></li>
+            <li><a class="site-navigation_link" href="#">Информация</a></li>
+            <li><a class="site-navigation_link" href="#">Фото и видео</a></li>
+            <li><a class="site-navigation_link" href="#">Карта штата</a></li>
+            <li><a class="site-navigation_link" href="catalog.html">Гостиницы</a></li>
           </ul>
         </div>
       </div>  
@@ -32,8 +32,9 @@
   </header>
 
   <main class="container">
+  <img src="img/index_background.jpg" width="1200" height="509" alt="фон">
     <h1 class="container-title">Седона — небольшой городок в Аризоне,
-    заслуживающий большего!</h1> 
+    <br> заслуживающий большего!</h1> 
     <section class="features">
       <h2 class="features-title">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
       <ul class="features-list">
@@ -45,41 +46,37 @@
           <img src="img/index_gorod_1.jpg" width="800" height="256" alt="город">
         </li>
         <li class="recommendation">
-          <h3 class="recommendation-title">Жилье</h3>
+          <p class="recommendation-title">Жилье</p>
           <p class="recommendation-text">Рекомендуем пожить в настоящем 
              мотеле, все как в кино!</p>
         </li>
         <li class="recommendation">
-          <h3 class="recommendation-title">Еда</h3>
+          <p class="recommendation-title">Еда</p>
           <p class="recommendation-text">Всегда заказывайте фирменный бургер, 
               вы не разочаруетесь!</p>
         </li>
         <li class="recommendation">
-          <h3 class="recommendation-title">Сувениры</h3>
+          <p class="recommendation-title">Сувениры</p>
           <p class="index-item">Не только китайского, но и местного
-              производства!</p>
+              производства!</p>     
         <li class="features-item">
-        <img src="img/index_gori.jpg" width="800" height="256" alt="горы">
-        <h3 class="features-item_title">Там есть Мост дъявола</h3>
+          <img src="img/index_gori.jpg" width="800" height="256" alt="горы">
+          <h3 class="features-item_title">Там есть Мост дъявола</h3>
           <div>№2</div>
-        <p class="features-item_text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          <p class="features-item_text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </li>
         <li class="features-block">
-        <h3 class="features-block_title">Небольшая площадь</h3>
+          <h3 class="features-block_title">Небольшая площадь</h3>
           <div>№3</div>
-        <p class="features-block_text">Все достопримечательности
+          <p class="features-block_text">Все достопримечательности
               находятся очень близко</p>
-        </li>
-        <li class="features-block">
-        <h3 class="features-block_title">Красивая дорога</h3>
+          <h3 class="features-block_title">Красивая дорога</h3>
           <div>№4</div>
-        <p class="features-block_text">Ехать в седону из лас-вегаса совсем
+          <p class="features-block_text">Ехать в седону из лас-вегаса совсем
               не скучно!</p>
-        </li>
-        <li class="features-block">
-        <h3 class="features-block_title">Мало туристов</h3>
+          <h3 class="features-block_title">Мало туристов</h3>
           <div>№5</div>
-        <p class="features-block_text">Большинство едет в гранд каньон
+          <p class="features-block_text">Большинство едет в гранд каньон
             и толпится там</p>
         </li>
       </ul>
@@ -87,14 +84,17 @@
     <section class="accommodation">
       <div class="accommodation_title">Заинтересовались?</div>
       <h2 class="accommodation-info">Укажите предполагаемые даты поездки, и мы подберем для вас лучшие предложения гостиниц в Седоне</h2>
+      <form class="accommodation-form" action="https://echo.htmlacademy.ru" method="post">
         <p class="accommodation-item">
-          <a href="#">Поиск гостиницы в Седоне</a>
+          <label for="accommodation-date">Дата заезда</label>
+          <input id="accommodation-date" type="text" name="date" placeholder="24.04.2017">
         </p>
-        <label for="accommodation-date">Дата заезда</label>
-        <p>
-        <label for="accommodation-date">Дата выезда</label>
+        <p class="accommodation-item">
+          <label for="accommodation-date">Дата выезда</label>
+          <input id="accommodation-date" type="text" name="date" placeholder="04.07.2017">
         </p>
-        <button type="submit">Найти</button>
+        <button class="button" type="submit">Найти</button>
+      </form>
     </section>
   </main>
 

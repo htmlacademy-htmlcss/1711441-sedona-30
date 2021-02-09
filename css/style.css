@@ -7,12 +7,13 @@
   --basic-brown: #766357;
   --basic-blue: #81B3D2;
   --basic-extra-blue: #669EC0;
-  --basic-extra-gray: 333333;
+  --basic-extra-gray: #333333;
+  --basic-brown: #766357;
 }
 
 /* Global */
 
-body {
+.page-body {
   min-width: 1280px;
   margin: 0;
   padding: 0;
@@ -25,7 +26,12 @@ body {
   background-color: var(--basic-white);
   background-image: url("../img/bg.jpg");
   background-position: top center;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
+
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;  
 }
 
 a {
@@ -38,35 +44,61 @@ img {
   height: auto;
 }
 
+/*Grid */
+.page {
+  height: 100%;
+} 
+
 /* Main navigation */
 
 .main-navigation {
+  display: grid;
   font-size: 14px;
   line-height: 26px;
   color: var(--basic-black);
   background-color: transparent;
 }
 
+/* Container */
+
+.container {
+  width: 1280px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Logo */
+
+.main-header-logo {
+  order: 1;
+  justify-self: center;
+}
+
 .main-navigation-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
   background-color: var(--basic-white);
 }
 
 .site-navigation {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* User navigation */
 
-.site-navigation a, 
-.user-navigation a {
+.site-navigation_link {
   color: var(--basic-black);
 }
 
-.site-navigation a:hover,
-.site-navigation a:focus,
-.user-navigation a:hover,
-.user-navigation a:focus {
+.site-navigation_link:hover,
+.site-navigation_link:focus {
   color: var(--basic-blue);
+}
+
+.site-navigation_link--active {
+  color: var(--basic-brown);
 }
 
 .container-title {
@@ -91,16 +123,19 @@ img {
 
 .features-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.feature-item {
+.features-item {
   text-align: center;
-  background: var(--basic-blue);
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
 }
 
-.feature-block {
+.features-block {
   text-align: center;
-  background: var(--basic-gray);
+  background-color: var(--basic-gray);
 }
 
 .feature-block_title {
@@ -115,23 +150,28 @@ img {
   font-weight: normal;
 }
 
-
 /* recommendation */
 
+.recommendation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+}
 
 .recommendation-title {
   font-size: 21px;
   line-height: 21px;
-
+  font-weight: bold;
+  text-align: center;
 }
 
 .recommendation-text {
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
-
+  text-align: center;
 }
-
 
 /* accommodation */
 
@@ -142,18 +182,16 @@ img {
 .accommodation_title  {
   font-size: 30px;
   line-height: 24px;
-  
 }
 
 .accommodation-info {
   font-size: 14px;
   line-height: 24px;
   font-weight: normal;
-  
 }
 
 .accommodation-item {
-  font-size: 21px;
+  font-size: 14px;
   line-height: 26px;
   font-weight: bold;
 } 
@@ -183,7 +221,6 @@ img {
   background-color:var(--basic-extra-blue)
 }
 
-
 .footer-copyright {
   font-size: 14px;
   line-height: 26px;
@@ -192,4 +229,99 @@ img {
 
 .footer-copyright {
   text-align: right;
+}
+
+.sorting-selection {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal; 
+}
+
+.infrastruktura-title {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold; 
+}
+
+.type-title {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold; 
+}
+
+.price-title {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold; 
+}
+
+.checkbox {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.results-text {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.results-title {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.rating {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.sorting-selection-item {
+  color: var(--basic-black);
+}
+
+.sorting-selection-item:focus,
+.sorting-selection-item:hover {
+  color: var(--basic-blue);
+}
+
+.sorting-selection-item:active {
+  color: var(--basic-black);
+}
+
+.sorting-selection-item--activ {
+  color: var(--basic-blue);
+  opacity: 0.3;
+}
+
+.checkbox-list {
+  list-style: none;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.sorting-selection-item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.results-text {
+  color: var(--basic-black);
+}
+
+.results-text:focus,
+.results-text:hover {
+  color: var(--basic-blue);
+}
+
+.results-text:active {
+  color: var(--basic-black);
+  opacity: 0.3;
 }
