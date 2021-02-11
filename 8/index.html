@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  
+  <base href="https://htmlacademy-htmlcss.github.io/1711441-sedona-30/8/">
+</head>
+
+<body class="page-body">
+
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="img/index_logo.svg" width="138" height="70" alt="Седона логотип">
+      </a>
+      <div class="main-navigation-wrapper">
+        <div class="container">
+          <ul class="site-navigation">
+            <li><a class="site-navigation_link" href="#">Информация</a></li>
+            <li><a class="site-navigation_link" href="#">Фото и видео</a></li>
+            <li><a class="site-navigation_link" href="#">Карта штата</a></li>
+            <li><a class="site-navigation_link" href="catalog.html">Гостиницы</a></li>
+          </ul>
+        </div>
+      </div>  
+    </nav>
+  </header>
+
+  <main class="container">
+  <img src="img/index_background.jpg" width="1200" height="509" alt="фон">
+    <h1 class="container-title">Седона — небольшой городок в Аризоне,
+    <br> заслуживающий большего!</h1> 
+    <section class="features">
+      <h2 class="features-title">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
+      <ul class="features-list">
+        <li class="features-item">
+          <h3 class="features-item_title">Настоящий городок</h3>
+          <div>№1</div>
+          <p class="features-item_text">Седона - не аттракцион для туристов, там
+             течёт своя жизнь</p>
+          <img src="img/index_gorod_1.jpg" width="800" height="256" alt="город">
+        </li>
+        <div class="recommendation-columns">
+          <li class="recommendation">
+            <p class="recommendation-title">Жилье</p>
+            <p class="recommendation-text">Рекомендуем пожить в настоящем 
+             мотеле, все как в кино!</p>
+          </li>
+          <li class="recommendation">
+            <p class="recommendation-title">Еда</p>
+            <p class="recommendation-text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li class="recommendation">
+            <p class="recommendation-title">Сувениры</p>
+            <p class="index-item">Не только китайского, но и местного
+              производства!</p>
+        </div>     
+        <li class="features-item">
+          <img src="img/index_gori.jpg" width="800" height="256" alt="горы">
+          <h3 class="features-item_title">Там есть Мост дъявола</h3>
+          <div>№2</div>
+          <p class="features-item_text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+        </li>
+        <div class="features-block-columns">
+          <li class="features-block">
+            <h3 class="features-block_title">Небольшая площадь</h3>
+            <div>№3</div>
+            <p class="features-block_text">Все достопримечательности
+              находятся очень близко</p>
+          </li>
+          <li class="features-block">
+            <h3 class="features-block_title">Красивая дорога</h3>
+            <div>№4</div>
+            <p class="features-block_text">Ехать в седону из лас-вегаса совсем
+              не скучно!</p>
+          </li>
+          <li class="features-block">
+            <h3 class="features-block_title">Мало туристов</h3>
+            <div>№5</div>
+            <p class="features-block_text">Большинство едет в гранд каньон
+            и толпится там</p>
+          </li>
+        </div>
+      </ul>
+    </section>
+    <section class="accommodation">
+      <div class="accommodation_title">Заинтересовались?</div>
+      <h2 class="accommodation-info">Укажите предполагаемые даты поездки, и мы подберем для вас лучшие предложения гостиниц в Седоне</h2>
+      <form class="accommodation-form" action="https://echo.htmlacademy.ru" method="post">
+        <p class="accommodation-item">
+          <label for="accommodation-date">Дата заезда</label>
+          <input id="accommodation-date" type="text" name="date" placeholder="24.04.2017">
+        </p>
+        <p class="accommodation-item">
+          <label for="accommodation-date">Дата выезда</label>
+          <input id="accommodation-date" type="text" name="date" placeholder="04.07.2017">
+        </p>
+        <button class="button" type="submit">Найти</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="main-footer-columns">
+      <section class="footer-contacts">
+        <a href="#">#VISITSEDONA</a><br>
+        Телефон: <a href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a>
+      </section>
+      <section class="footer-social">
+        <a class="social-button" href="#">Твитер</a>
+        <a class="social-button" href="#">Фейсбук</a>
+        <a class="social-button" href="#">Ютуб</a>
+      </section>
+    <p class="footer-copyright">
+      <a href="https://htmlacademy.ru/">
+        Website by
+        <img src="img/index_logo_html.svg" width="115" height="41" alt="логотип академии">
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
