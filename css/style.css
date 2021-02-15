@@ -67,8 +67,9 @@ img {
 /* Logo */
 
 .main-header-logo {
-  order: 1;
-  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .main-navigation-wrapper {
