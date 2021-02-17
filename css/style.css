@@ -74,9 +74,12 @@ img {
 
 .main-navigation-wrapper {
   background-color: var(--basic-white);
+
 }
 
 .site-navigation {
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -86,6 +89,9 @@ img {
 
 .site-navigation_link {
   color: var(--basic-black);
+  display: block;
+  padding: 16px 100px;
+  margin-top: 14px;
 }
 
 .site-navigation_link:hover,
@@ -118,7 +124,6 @@ img {
 }
 
 .features-list {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -138,7 +143,6 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   width: 1200px;
   height: 256px;
-  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -167,7 +171,6 @@ img {
 /* recommendation */
 
 .recommendation-columns {
-  list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -254,10 +257,19 @@ img {
   justify-self: end;
 }
 
-.sorting-selection {
-  font-size: 12px;
-  line-height: 18px;
-  font-weight: normal; 
+.hotel-main {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 px;
+}
+
+.filtr-block-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  width: 1200px;
+  height: 217px;
+  margin-left: 73px;
+
 }
 
 .infrastruktura-title {
@@ -272,6 +284,11 @@ img {
   font-weight: bold; 
 }
 
+.price {
+  text-align: right;
+  margin-right: 73px;
+}
+
 .price-title {
   font-size: 16px;
   line-height: 21px;
@@ -284,13 +301,24 @@ img {
   font-weight: normal;
 }
 
+.results-image {
+  float: left;
+  margin-left: 73px;
+}
+
 .results-text {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
 }
 
 .results-title {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
@@ -299,6 +327,30 @@ img {
 .rating {
   font-size: 14px;
   line-height: 21px;
+  font-weight: normal;
+}
+
+.sorting {
+  margin-left: 73px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sorting-title {
+  float: left;
+}
+
+.sorting-list {
+  list-style: none;
+}
+
+.sorting-item {
+  text-align: right;
+}
+
+.sorting-selection {
+  font-size: 12px;
+  line-height: 18px;
   font-weight: normal;
 }
 
@@ -347,4 +399,8 @@ img {
 .results-text:active {
   color: var(--basic-black);
   opacity: 0.3;
+}
+
+.rating {
+  text-align: right;
 }
