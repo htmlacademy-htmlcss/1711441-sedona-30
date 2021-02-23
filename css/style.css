@@ -74,7 +74,7 @@ img {
 
 .main-navigation-wrapper {
   background-color: var(--basic-white);
-
+  
 }
 
 .site-navigation {
@@ -83,6 +83,8 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
+  
+
 }
 
 /* User navigation */
@@ -257,25 +259,19 @@ img {
   justify-self: end;
 }
 
-.hotel-main {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 px;
-}
-
-.filtr-block-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
-  width: 1200px;
-  height: 217px;
-  margin-left: 73px;
+.filtr-block {
+  display: flex;
+  padding-left: 73px;
+  padding-top: 55px;
 
 }
 
-.infrastruktura-title {
+.infrastructure-title {
   font-size: 16px;
   line-height: 21px;
   font-weight: bold; 
+  padding-right: 65px;
+  min-width: 200px;
 }
 
 .type-title {
@@ -285,8 +281,8 @@ img {
 }
 
 .price {
-  text-align: right;
-  margin-right: 73px;
+  margin-left: auto;
+ 
 }
 
 .price-title {
@@ -301,57 +297,70 @@ img {
   font-weight: normal;
 }
 
-.results-image {
-  float: left;
-  margin-left: 73px;
+.results {
+  padding-left: 73px;
+  padding-top: 66px;
+}
+
+.results-item {
+  display: flex;
 }
 
 .results-text {
   display: flex;
-  align-items: center;
   text-transform: uppercase;
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
+  padding-left: 30px;
 }
 
 .results-title {
   display: flex;
-  align-items: center;
-  text-transform: uppercase;
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
+  padding-left: 30px;
+}
+
+.button {
+  padding-left: 30px;
 }
 
 .rating {
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
-}
-
-.sorting {
-  margin-left: 73px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.sorting-title {
-  float: left;
-}
-
-.sorting-list {
-  list-style: none;
-}
-
-.sorting-item {
   text-align: right;
 }
 
+.sorting {
+  padding-left: 73px; 
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 63px;
+}
+
+.sorting-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.sorting-item {
+  display: flex;
+  padding-left: 500px;
+ 
+}
+
 .sorting-selection {
+  display: flex;
   font-size: 12px;
   line-height: 18px;
   font-weight: normal;
+  padding-left: 47px;
 }
 
 .sorting-selection-item {
@@ -399,8 +408,4 @@ img {
 .results-text:active {
   color: var(--basic-black);
   opacity: 0.3;
-}
-
-.rating {
-  text-align: right;
 }
