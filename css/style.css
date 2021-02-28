@@ -50,6 +50,7 @@ img {
 /* Main navigation */
 
 .main-navigation {
+  position: relative;
   font-size: 14px;
   line-height: 26px;
   color: var(--basic-black);
@@ -68,10 +69,9 @@ img {
 
 .main-header-logo {
   display: flex;
-  flex-direction: row;
   position: absolute;
-  left: 880px;
-  justify-content: center;
+  left: calc(50% - 69px);
+  top: 0;
 }
 
 .main-navigation-wrapper {
@@ -82,10 +82,9 @@ img {
 .site-navigation {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 85px;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
 
 /* User navigation */
@@ -93,9 +92,6 @@ img {
 .site-navigation_link {
   color: var(--basic-black);
   display: block;
-  padding: 15px 70px;
-  padding: 16px 100px;
-  margin-top: 14px;
 }
 
 .site-navigation_link:hover,
