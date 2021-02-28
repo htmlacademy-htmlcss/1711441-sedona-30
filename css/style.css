@@ -71,6 +71,7 @@ img {
   flex-direction: row;
   position: absolute;
   left: 880px;
+  justify-content: center;
 }
 
 .main-navigation-wrapper {
@@ -85,8 +86,6 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
-  
-
 }
 
 /* User navigation */
@@ -95,6 +94,8 @@ img {
   color: var(--basic-black);
   display: block;
   padding: 15px 70px;
+  padding: 16px 100px;
+  margin-top: 14px;
 }
 
 .site-navigation_link:hover,
