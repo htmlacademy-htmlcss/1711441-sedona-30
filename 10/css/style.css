@@ -87,7 +87,7 @@ img {
   padding: 0;
   padding-left: 73px;
   padding-right: 72px; 
-  padding-top: 16px;
+  padding-top: 15px;
   padding-bottom: 18px;
 }
 
@@ -120,7 +120,15 @@ img {
 }
 
 .img_shape {
+  position: absolute;
+  left: 352px;
+  top: 512px;
+}
 
+.img_welcome {
+  position: absolute;
+  left: calc(50% - 228px);
+  top: 133px;
 }
 
 .heading-title {
@@ -128,7 +136,7 @@ img {
   margin: 0;
   font-size: 21px;
   line-height: 26px;
-  padding-top: 33px;
+  padding-top: 35px;
   padding-bottom: 43px;
   padding-left: 380px;
   padding-right: 377px;
@@ -159,7 +167,7 @@ img {
 
 .img_city {
   width: 800px;
-  height: 256px;
+  height: 257px;
 }
 
 .img_icon {
@@ -176,7 +184,7 @@ img {
   text-align: center;
   background-color: var(--basic-blue);
   color: var(--basic-white);
-  height: 257px;
+  height: 256px;
 }
 
 .features-item_title {
@@ -189,17 +197,6 @@ img {
   font-size: 21px;
   line-height: 21px;
   text-align: center;
-}
-
-.features-item_title_bridge {
-  margin: 0;
-  padding: 0;
-  padding-top: 46px;
-  padding-right: 125px;
-  padding-left: 126px;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 21px;
 }
 
 .features-item_text {
@@ -381,6 +378,8 @@ img {
 .accommodation_title  {
   padding: 0;
   margin: 0;
+  padding-top: 60px;
+  padding-bottom: 38px;
   font-size: 30px;
   line-height: 24px;
 
@@ -389,6 +388,7 @@ img {
 .accommodation-info {
   padding: 0;
   margin: 0;
+  padding-bottom: 132px;
   font-size: 14px;
   line-height: 24px;
   font-weight: normal;
