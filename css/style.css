@@ -69,6 +69,7 @@ img {
 
 .main-header-logo {
   display: flex;
+  z-index: 10;
   position: absolute;
   left: calc(50% - 69px);
   top: 0;
@@ -92,11 +93,11 @@ img {
 }
 
 .site-navigation_item {
-  padding-right: 135px;
+  padding-right: 134px;
 }
 
 .site-navigation_item_foto {
-  padding-right: 417px;
+  padding-right: 418px;
 }
 
 .site-navigation_item_map {
@@ -119,16 +120,20 @@ img {
   color: var(--basic-brown);
 }
 
+.decor {
+  position: relative;
+}
+
 .img_shape {
   position: absolute;
-  left: 352px;
-  top: 512px;
+  left: 0;
+  bottom: 0;
 }
 
 .img_welcome {
   position: absolute;
   left: calc(50% - 228px);
-  top: 133px;
+  top: 76px;
 }
 
 .heading-title {
@@ -136,9 +141,9 @@ img {
   margin: 0;
   font-size: 21px;
   line-height: 26px;
-  padding-top: 35px;
+  padding-top: 34px;
   padding-bottom: 43px;
-  padding-left: 380px;
+  padding-left: 379px;
   padding-right: 377px;
   text-align: center;
 }
@@ -388,7 +393,7 @@ img {
 .accommodation-info {
   padding: 0;
   margin: 0;
-  padding-bottom: 132px;
+  padding-bottom: 135px;
   font-size: 14px;
   line-height: 24px;
   font-weight: normal;
@@ -400,16 +405,36 @@ img {
   font-weight: bold;
 } 
 
+.search {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.accommodation-form {
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+}
+
+.img_map {
+  position: relative;
+}
+
 /* footer */
 
-.main-footer-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.main-footer {
+  display: flex;
+  position: absolute;
+  left: calc(30% - 240px);
+  top: 2642px;
+  height: 120px;
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
-  width: 1200px;
-  justify-self: center;
+  background-color: var(--basic-white);
+  opacity: 0.9;
+
 }
 
 .container {
@@ -418,28 +443,57 @@ img {
   padding: 0 px;
 }
 
-.footer-social {
+.footer-contacts {
+  padding: 0;
+  margin: 0;
+  padding-top: 24px;
+  width: 400px;
+  text-align: center;
   justify-self: center;
-  margin-top: 36px;
+}
+
+.footer-social {
+  width: 150px;
+  justify-self: center;
+  text-align: center;
+
 }
 
 .social-button {
-  color: initial;
-}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  width: 46px
+  height: 48px;
+  background-color: var(--basic-blue);
+ }
 
 .social-button:hover,
 .social-button:focus {
-  background-color:var(--basic-extra-blue)
+  background-color: var(--basic-extra-blue)
 }
 
 .footer-copyright {
+  display: flex;
   margin: 0;
   padding: 0;
+  padding-top: 36px;
+  padding-bottom: 40px;
+  padding-right: 65px;
+  padding-left: 65px;
   font-size: 14px;
   line-height: 26px;
   font-weight: normal;	
-  justify-self: end;
 }
+
+.link {
+  padding: 0;
+  margin: 0;
+  padding-right: 10px;
+}
+
 
 .filtr-block {
   display: flex;
