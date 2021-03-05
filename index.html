@@ -106,18 +106,20 @@
       <section class="accommodation">
         <div class="accommodation_title">Заинтересовались?</div>
         <h2 class="accommodation-info">Укажите предполагаемые даты поездки, <br> и мы подберем для вас лучшие предложения гостиниц в Седоне</h2>
-        <div class="search">Поиск гостиницы в Седоне</div>
-        <form class="accommodation-form" action="https://echo.htmlacademy.ru" method="post">
-          <p class="accommodation-item">
-            <label for="accommodation-date">Дата заезда</label>
-            <input id="accommodation-date" type="text" name="date" placeholder="24.04.2017">
-          </p>
-          <p class="accommodation-item">
-            <label for="accommodation-date">Дата выезда</label>
-            <input id="accommodation-date" type="text" name="date" placeholder="04.07.2017">
-          </p>
-          <button class="button" type="submit">Найти</button>
-        </form>
+        <div class="search-iner">
+          <div class="search">Поиск гостиницы в Седоне</div>
+          <form class="accommodation-form" action="https://echo.htmlacademy.ru" method="post">
+            <p class="accommodation-item">
+              <label for="accommodation-date">Дата заезда</label>
+              <input id="accommodation-date" type="text" name="date" placeholder="24.04.2017">
+            </p>
+            <p class="accommodation-item">
+              <label for="accommodation-date">Дата выезда</label>
+              <input id="accommodation-date" type="text" name="date" placeholder="04.07.2017">
+            </p>
+            <button class="button" type="submit">Найти</button>
+          </form>
+        </div>
       </section>
       <div class="img_map">
           <img src="img/index_map.svg" width="1200" height="594" alt="карта">
@@ -127,7 +129,7 @@
     <footer class="main-footer">
       <div class="footer-contacts">
         <p class="hashtag">#visitsedona</p>
-        <a href="tel:+74956660166">тел: +7(495) 666-01-66</a>
+        <p class="telephone" a href="tel:+74956660166">тел: +7(495) 666-01-66</a>
       </div>
       <div class="footer-social">
         <div class="footer-social-iner">
@@ -152,7 +154,9 @@
         <a href="https://htmlacademy.ru/">
           <p class="link">Website by</p>
         </a>
-        <img src="img/index_logo_html.svg" width="115" height="41" alt="логотип академии">
+        <div class="img-logo-footer">
+          <img src="img/index_logo_html.svg" width="115" height="41" alt="логотип академии">
+        </div>
       </div>
     </footer>
   </div>

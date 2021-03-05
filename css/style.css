@@ -452,7 +452,7 @@ background-color: rgba(255, 255, 255, 0.9);
   width: 400px;
   padding: 0;
   margin: 0;
-  padding-left: 120px;
+  padding-left: 121px;
   padding-right: 52px;
   padding-top: 23px;
   padding-bottom: 48px;
@@ -462,7 +462,14 @@ background-color: rgba(255, 255, 255, 0.9);
 .hashtag {
   padding: 0;
   margin: 0;
-  padding-left: 50px; 
+  padding-left: 45px; 
+}
+
+.telephone {
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 2px;
 }
 
 .footer-social {
@@ -474,6 +481,7 @@ background-color: rgba(255, 255, 255, 0.9);
   justify-content: space-between;
   padding-top: 36px;
   padding-bottom: 48px;
+  padding-left: 9px;
   width: 151px;
 }
 
@@ -506,6 +514,7 @@ background-color: rgba(255, 255, 255, 0.9);
   padding: 0;
   padding-top: 36px;
   padding-bottom: 40px;
+  padding-right: 2px;
   font-size: 14px;
   line-height: 26px;
   font-weight: normal;	
@@ -514,8 +523,13 @@ background-color: rgba(255, 255, 255, 0.9);
 .link {
   padding: 0;
   margin: 0;
-  padding-right: 10px;
-  padding-top: 18px;
+  padding-right: 7px;
+  padding-top: 12px;
+  padding-left: 7px;
+}
+
+.img-logo-footer {
+  padding-top: 2px;
 }
 
 
