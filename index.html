@@ -106,18 +106,28 @@
       <section class="accommodation">
         <div class="accommodation_title">Заинтересовались?</div>
         <h2 class="accommodation-info">Укажите предполагаемые даты поездки, <br> и мы подберем для вас лучшие предложения гостиниц в Седоне</h2>
-        <div class="search-iner">
-          <div class="search">Поиск гостиницы в Седоне</div>
-          <form class="accommodation-form" action="https://echo.htmlacademy.ru" method="post">
-            <p class="accommodation-item">
-              <label for="accommodation-date">Дата заезда</label>
-              <input id="accommodation-date" type="text" name="date" placeholder="24.04.2017">
-            </p>
-            <p class="accommodation-item">
-              <label for="accommodation-date">Дата выезда</label>
-              <input id="accommodation-date" type="text" name="date" placeholder="04.07.2017">
-            </p>
-            <button class="button" type="submit">Найти</button>
+        <div class="search">
+          <button class="button-search" a href="#">поиск гостиницы в Седоне</button>
+          <form action="https://echo.htmlacademy.ru" method="post">
+            <fieldset class="accommodation-form">
+              <p class="accommodation-item">
+                <label for="accommodation-date">Дата заезда:</label>
+                <input id="accommodation-date" type="text" name="data" placeholder="24 апреля 2017">
+              </p>
+              <p class="accommodation-item">
+                <label for="accommodation-date">Дата выезда:</label>
+                <input id="accommodation-date" type="text" name="data" placeholder="4 июля 2017">
+              </p>
+              <p class="accommodation-title">
+                <label for="accommodation-adults">взрослые:</label>
+                <input id="accommodation-adults" type="number" name="adults" placeholder="2">
+              </p>
+              <p class="accommodation-title">
+                <label for="accommodation-baby">дети:</label>
+                <input id="accommodation-baby" type="number" name="baby" placeholder="0">
+              </p>
+              <button class="button-find" type="submit">Найти</button>
+            </fieldset>
           </form>
         </div>
       </section>
