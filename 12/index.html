@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  
+  <base href="https://htmlacademy-htmlcss.github.io/1711441-sedona-30/12/">
+</head>
+
+<body class="page-body">
+  <div class="container">
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/index_logo.svg" width="138" height="70" alt="Седона логотип">
+        </a>
+        <div class="main-navigation-wrapper">
+          <ul class="site-navigation">
+            <li class="site-navigation_item"><a class="site-navigation_link" href="#">Информация</a></li>
+            <li class="site-navigation_item_foto"><a class="site-navigation_link" href="#">Фото и видео</a></li>
+            <li class="site-navigation_item_map"><a class="site-navigation_link" href="#">Карта штата</a></li>
+            <li class="site-navigation_item_motel"><a class="site-navigation_link" href="catalog.html">Гостиницы</a></li>
+          </ul>
+        </div>  
+      </nav>
+    </header>
+
+    <main>
+      <div class="decor">
+        <img src="img/index_background.jpg" width="1200" height="509" alt="фон">
+          <div class="img_shape">  
+            <img src="img/index_shape.svg" width="1200" height="57" alt="рамка">
+          </div>
+          <div class="img_welcome">
+            <img src="img/index_welcome.svg" width="456.65" height="350.88" alt="добро пожаловать">
+          </div>
+      </div>
+      <h1 class="heading-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1> 
+      <section class="features">
+        <h2 class="features-title">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
+        <div class="features-list">
+          <div class="features-item">
+            <div class="features-item_inner">
+              <h3 class="features-item_title">Настоящий городок</h3>
+              <p class="text-block">—№1—</p>
+              <p class="features-item_text">Седона - не аттракцион для туристов, там <br> течёт своя жизнь</p>
+            </div>
+            <div class="img_city">
+              <img src="img/index_gorod_1.jpg" width="800" height="256" alt="город">
+            </div>
+          </div>
+        </div>
+        <div class="recommendation-columns">
+          <div class="recommendation">
+            <img src="img/index_icon1.svg" width="75" height="72" alt="иконка дом">
+            <p class="recommendation-title">Жилье</p>
+            <p class="recommendation-text1">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </div>
+          <div class="recommendation">
+            <img src="img/index_icon3.svg" width="75" height="72" alt="бургер">
+            <p class="recommendation-title">Еда</p>
+            <p class="recommendation-text2">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </div>
+          <div class="recommendation">
+            <img src="img/index_icon2.svg" width="64" height="77" alt="сувениры">
+            <p class="recommendation-title">Сувениры</p>
+            <p class="recommendation-text3">Не только китайского, но и местного производства!</p>
+          </div>
+        </div>
+        <div class="features-list">     
+          <div class="features-item">
+            <div class="img_city">
+              <img src="img/index_gori.jpg" width="800" height="256" alt="горы">
+            </div>
+            <div class="features-item_inner">
+              <h3 class="features-item_title">Там есть <br> мост дъявола</h3>
+              <p class="text-block">—№2—</p>
+              <p class="features-item_text_2">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            </div>  
+          </div>
+        </div>
+        <div class="features-block-columns">
+          <div class="features-block">
+            <h3 class="features-block_title1">Небольшая площадь</h3>
+            <p class="text-block">—№3—</p>
+            <p class="features-block_text1">Все достопримечательности находятся очень близко</p>
+          </div>
+          <div class="features-block">
+            <h3 class="features-block_title2">Красивая дорога</h3>
+            <p class="text-block">—№4—</p>
+            <p class="features-block_text2">Ехать в седону из лас-вегаса совсем не скучно!</p>
+          </div>
+          <div class="features-block">
+            <h3 class="features-block_title3">Мало туристов</h3>
+            <p class="text-block">—№5—</p>
+            <p class="features-block_text3">Большинство едет в гранд каньон и толпится там</p>
+          </div>
+        </div>
+      </section>
+      <section class="accommodation">
+        <div class="accommodation_title">Заинтересовались?</div>
+        <h2 class="accommodation-info">Укажите предполагаемые даты поездки, <br> и мы подберем для вас лучшие предложения гостиниц в Седоне</h2>
+        <div class="search">
+          <a class="button-search" a href="#">поиск гостиницы в Седоне</a>
+            <form action="https://echo.htmlacademy.ru" method="post">
+              <div class="accommodation-form">
+                <p class="accommodation-item">
+                  <label for="accommodation-date">Дата заезда:</label>
+                  <input id="accommodation-date" type="text" name="data" placeholder="24 апреля 2017">
+                </p>
+                <p class="accommodation-item">
+                  <label for="accommodation-date">Дата выезда:</label>
+                  <input id="accommodation-date" type="text" name="data" placeholder="4 июля 2017">
+                </p>
+                <p class="accommodation-title">
+                  <label for="accommodation-adults">взрослые:</label>
+                  <input id="accommodation-adults" type="number" name="adults" placeholder="2">
+                </p>
+                <p class="accommodation-title">
+                  <label for="accommodation-baby">дети:</label>
+                  <input id="accommodation-baby" type="number" name="baby" placeholder="0">
+                </p>
+                <button class="button-find" type="submit">Найти</button>
+              </div>
+            </form>
+        </div>
+      </section>
+      <div class="img_map">
+          <img src="img/index_map.svg" width="1200" height="594" alt="карта">
+        </div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="footer-contacts">
+        <p class="hashtag">#visitsedona</p>
+        <p class="telephone" a href="tel:+74956660166">тел: +7(495) 666-01-66</a>
+      </div>
+      <div class="footer-social">
+        <div class="footer-social-iner">
+          <a class="social-button" href="#">
+            <span class="visually_hidden">Твиттер</span>
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.95 1.14409C12.635 0.648089 13.934 1.41409 14.527 2.32309C15.2 2.09209 15.858 1.84209 16.538 1.61509C16.5249 2.30145 16.2117 2.94761 15.681 3.38309C16.366 3.55309 16.985 2.89209 16.985 2.89209C16.816 3.89209 15.979 4.68009 15.422 4.91609C15.191 11.6661 12.247 16.1331 5.34498 15.9981H4.89898C4.48898 15.9981 0.734977 15.5381 0.000976562 14.1111C2.27198 14.3071 3.89398 13.6891 4.69398 12.9341C3.73398 12.6341 2.01498 12.4571 1.71498 9.98409C2.06398 10.0901 2.27898 10.2121 2.90498 10.1031C1.70498 9.24709 0.373977 8.53009 0.447977 6.33009C0.732977 6.65809 1.51498 6.86609 1.78798 6.80209C1.08498 6.56109 -0.182023 3.44209 0.893977 1.85009C2.71198 3.70409 4.62898 5.45609 8.04598 5.62309C8.25398 3.33009 9.18298 1.79309 10.95 1.14409Z" fill="white"/></svg>
+          </a>
+          <a class="social-button" href="#">
+            <span class="visually_hidden">ФБ</span>
+            <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4V0H8C5.79086 0 4 1.79086 4 4V8H0V12H4V22H8V12H12V8H8V4H12Z" fill="white"/></svg>
+          </a>
+          <a class="social-button" href="#">
+            <span class="visually_hidden">Ютуб</span>
+            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M3 0H17C18.65 0 20 1.35 20 3V13C20 14.65 18.65 16 17 16H3C1.35 16 0 14.65 0 13V3C0 1.35 1.35 0 3 0ZM6.027 4.002V11.998L15.014 8L6.027 4.002Z" fill="white"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p class="link">Website by</p>
+        <a class="img-logo-footer" a href="https://htmlacademy.ru/">
+          <img src="img/index_logo_html.svg" width="115" height="41" alt="логотип академии">
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
