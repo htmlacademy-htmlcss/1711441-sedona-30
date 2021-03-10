@@ -16,9 +16,8 @@
   <div class="container">
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo">
-          <img src="img/index_logo.svg" width="138" height="70" alt="Седона логотип">
-        </a>
+        <a class="main-header-logo" href="index.html">
+          <img src="img/index_logo.svg" width="138" height="70" alt="Седона логотип"></a>
         <div class="main-navigation-wrapper">
           <ul class="site-navigation">
             <li class="site-navigation_item"><a class="site-navigation_link" href="index.html">Информация</a></li>
@@ -79,77 +78,115 @@
         </div>
     <div class="sorting">
       <div class="sorting-title">
-        <h2>Найдено:3</h2>
+        <h2 class="sorting-search">Найдено: 3</h2>
       </div>
       <div class="sorting-selection">
-        <p>Сортировка:</p>
+        <p class="sorting-selection-title">Сортировка:</p>
         <ul class="sorting-list">
           <li><a class="sorting-selection-item--activ" href="#">По цене</a></li>
-          <li><a class="sorting-selection-item" href="#">По типу</a></li>
-          <li><a class="sorting-selection-item" href="#">По рейтингу</a></li>
+          <li><a class="sorting-selection-type" href="#">По типу</a></li>
+          <li><a class="sorting-selection-raiting" href="#">По рейтингу</a></li>
         </ul>
-        <div class="sorting-item">
-          <p>up</p>
-          <p>down</p>
-        </div> 
       </div>
-    </div>
+      <div class="found">
+        <ul class="found-list">
+          <li class="found-up">
+            <a href="#">  
+              <span class="visually_hidden">Вверх</span>
+              <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.5 0L0 10H11L5.5 0Z" fill="#CACACA"/></svg>
+            </a>
+          </li>
+          <li class="found-down">
+            <a href="#">
+              <span class="visually_hidden">Вниз</span>
+              <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.5 10L0 0H11" fill="#81B3D2"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div> 
+    </section>
     <section class="results">
-      <article class="results-item">
-        <div class="results-image">
-          <img src="img/catalog_hotel.jpg" width="135" height="90" alt="Гостиница">
-        </div>
-        <div>
-          <h2 class="results-text"><a href="#">Amara Resort & Spa</a></h2>
-            <p class="results-title">Гостиница от 4000р</p>
-            <div class="button">
-              <a href="#" class="details">Подробнее</a>
-              <a href="#" class="reservation">Забронировать</a>
+      <ul class="results-list">
+        <li class="results-item">
+          <div class="results-image">
+            <img src="img/catalog_hotel.jpg" width="135" height="90" alt="Гостиница">
+          </div>
+          <div class="hotel-information">
+            <h2 class="results-text"><a href="#">Amara Resort & Spa</a></h2>
+              <div class="results-motel">
+                <p class="results-title">Гостиница</p>
+                <p class="results-many">от 4000р</p>
+              </div>
+            <div class="results-link">
+              <p class="details"><a href="#">Подробнее</a>
+              <p class="reservation"><a href="#">Забронировать</a>
             </div>
-        </div>
-      </article>  
-      <div class="rating">
-        <span>РЕЙТИНГ:8,5</span>
-        <div>Рейтинг по звездам</div>
-      </div>
-      <article class="results-item">
-        <div class="results-image">
-          <img src="img/catalog_motel.jpg" width="135" height="90" alt="Мотель">
-        </div>
-        <div>
-          <h2 class="results-text"><a href="#">Desert Quail Inn</a></h2>  
-            <p class="results-title">Мотель от 3500р</p>
-            <div class="button">
-              <a href="#" class="details">Подробнее</a>
-              <a href="#" class="reservation">Забронировать</a>
+          </div>
+          <div class="rating">
+            <div class="star">
+              <img src="img/catalog_star.svg" width="19" height="17" alt="звезды">
+              <img src="img/catalog_star.svg" width="19" height="17" alt="звезды">
+              <img src="img/catalog_star.svg" width="19" height="17" alt="звезды">
+              <img src="img/catalog_star.svg" width="19" height="17" alt="звезды">
             </div>
-        </div>
-      </article>  
-      <div class="rating">
-        <span>РЕЙТИНГ:8,9</span>
-        <div>Рейтинг по звездам</div>
-      </div>
-      <article class="results-item">
-        <div class="results-image"> 
-          <img src="img/catalog_apartaments.jpg" width="135" height="90" alt="Апартаменты">
-        </div>
-        <div>
-          <h2 class="results-text"><a href="#">Villas at Poco Diablo</a></h2>   
-            <p class="results-title">Апартаменты от 2000р</p>
-            <div class="button">
-              <a href="#" class="details">Подробнее</a>
-              <a href="#" class="reservation">Забронировать</a>
+            <p class="hotel-rating">рейтинг: 8,5</p>
+          </div>
+        </li>
+        <li class="results-item">
+          <div class="results-image">
+            <img src="img/catalog_motel.jpg" width="135" height="90" alt="Мотель">
+          </div>
+          <div class="hotel-information">
+            <h2 class="results-text"><a href="#">Desert Quail Inn</a></h2>
+              <div class="results-motel">
+                <p class="results-title">мотель</p>
+                <p class="results-many">от 3000р</p>
+              </div>
+            <div class="results-link">
+              <p class="details"><a href="#">Подробнее</a>
+              <p class="reservation"><a href="#">Забронировать</a>
             </div>
-        </div>
-      </article>
-      <div class="rating">
-        <span>РЕЙТИНГ:9,2</span>
-        <div>Рейтинг по звездам</div>
-      </div>
-    </section> 
+          </div>
+          <div class="rating">
+            <div class="star-motel">
+              <img src="img/catalog_star.svg" width="19" height="17" alt="звезды">
+              <img src="img/catalog_star.svg" width="19" height="17" alt="звезды">
+              <img src="img/catalog_star.svg" width="19" height="17" alt="звезды">
+            </div>
+            <p class="hotel-rating">рейтинг: 8,9</p>
+          </div>
+        </li>
+        <li class="results-item">
+          <div class="results-image"> 
+            <img src="img/catalog_apartaments.jpg" width="135" height="90" alt="Апартаменты">
+          </div>
+          <div class="hotel-information">
+            <h2 class="results-text"><a href="#">Villas at Poco Diablo</a></h2>
+              <div class="results-motel">
+                <p class="results-title">апартаменты</p>
+                <p class="results-many">от 2000р</p>
+              </div>
+            <div class="results-link">
+              <p class="details"><a href="#">Подробнее</a>
+              <p class="reservation"><a href="#">Забронировать</a>
+            </div>
+          </div>
+          <div class="rating">
+            <div class="star-apartamens">
+              <img src="img/catalog_star.svg" width="19" height="17" alt="звезды">
+              <img src="img/catalog_star.svg" width="19" height="17" alt="звезды">
+            </div>
+            <p class="hotel-rating">рейтинг:9,2</p>
+          </div>
+        </li>
+      </ul>
+    </section>
   </main>
 
-  <footer class="main-footer">
+  <footer class="container">
+    <div class="main-footer-inner">
       <div class="footer-contacts">
         <p class="hashtag">#visitsedona</p>
         <p class="telephone" a href="tel:+74956660166">тел: +7(495) 666-01-66</a>
@@ -174,14 +211,11 @@
         </div>
       </div>
       <div class="footer-copyright">
-        <a href="https://htmlacademy.ru/">
-          <p class="link">Website by</p>
-        </a>
-        <div class="img-logo-footer">
+        <p class="link">Website by</p>
+        <a class="img-logo-footer" a href="https://htmlacademy.ru/">
           <img src="img/index_logo_html.svg" width="115" height="41" alt="логотип академии">
-        </div>
       </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </body>
 </html>
