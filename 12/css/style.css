@@ -14,10 +14,6 @@
   --basic-extra-extra-brown: #503E33;
   --basic-light-gray: #F2F2F2;
   --basic-extra-gray: #666666;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 }
 
 /* Global */
@@ -326,6 +322,7 @@ img {
 .recommendation-columns {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  height: 330px;
 }
 
 .recommendation {
@@ -433,19 +430,13 @@ img {
 }
 
 .button-search {
-<<<<<<< Updated upstream
-=======
   padding: 30px 24px;
->>>>>>> Stashed changes
   width: 568px;
   height: 86px;
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
-<<<<<<< Updated upstream
-=======
   text-decoration: none;
->>>>>>> Stashed changes
   text-transform: uppercase;
   background-color: var(--basic-brown);
   color: var(--basic-white);
@@ -470,10 +461,6 @@ img {
   background-color: var(--basic-blue);
   color: var(--basic-white);
   border: none;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 }
 
 .button-find:hover,
@@ -491,10 +478,6 @@ img {
   width: 568px;
   height: 395px;
   background-color: var(--basic-white);
-<<<<<<< Updated upstream
-=======
-  box-shadow: 0px 7px 15px rgba(0, 1, 1, 0.15); 
->>>>>>> Stashed changes
 }
 
 .img_map {
@@ -639,21 +622,12 @@ background-color: rgba(255, 255, 255, 0.9);
 
 .infrastructure-title {
   color: var(--basic-white);
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 }
 
 .infrastructure-item {
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;
-<<<<<<< Updated upstream
-  text-transform: uppercase;
-=======
-  text-transform: uppercase; 
->>>>>>> Stashed changes
 }
 
 .type-item {
@@ -765,6 +739,12 @@ background-color: rgba(255, 255, 255, 0.9);
   margin: 0;
 }
 
+.results-many {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
 .results-link {
   display: flex;
   justify-content: space-between;
@@ -817,10 +797,6 @@ background-color: rgba(255, 255, 255, 0.9);
 .sorting-search {
   padding: 0;
   margin: 0;
-<<<<<<< Updated upstream
-  padding-top: 50px;
-=======
->>>>>>> Stashed changes
 }
 
 .sorting-list {
@@ -833,10 +809,6 @@ background-color: rgba(255, 255, 255, 0.9);
 .found {
   margin-left: 503px;
   padding-top: 5px;
-<<<<<<< Updated upstream
-=======
- 
->>>>>>> Stashed changes
 }
 
 .found-list {
@@ -854,11 +826,6 @@ background-color: rgba(255, 255, 255, 0.9);
   width: 11px;
   height: 10px;
   background-repeat: no-repeat;
-<<<<<<< Updated upstream
-  padding-left: 500px;
-
-=======
->>>>>>> Stashed changes
 }
 
 .sorting-selection {
